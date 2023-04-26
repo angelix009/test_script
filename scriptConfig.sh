@@ -33,7 +33,7 @@ read -p "Entrez le nouveau site (ex: tol pour Toulon) : " VAR4
 while [[ ! $VAR4 =~ ^[a-zA-Z]{3}$ ]]; do
     read -p "Le site doit contenir 3 lettres. Entrez le nouveau site (ex: tol pour Toulon) : " VAR4
 done
-VAR4="$VAR4.lapereyre.fr"
+VAR4="$VAR4.chcolat.fr"
 
 if [ "$bridge" == "yes" ]; then
     read -p "Entrez la nouvelle adresse IP pour le bridge : " bridge_ip
